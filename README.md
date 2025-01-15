@@ -32,7 +32,7 @@ This project demonstrates how these tools work together to create an automated S
 - **TheHive Login**:  
   ![TheHive Login Interface](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/hive%20login.png)
 - **Sysmon Log Generation**:  
-  ![Sysmon Log Generation](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/sysmon%20filter%20wazuh.png)
+  ![Sysmon Log Generation](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/wazuh%20agent%20sysmon%20logs%20to%20wazuh.png)
 
 ---
 
@@ -40,7 +40,7 @@ This project demonstrates how these tools work together to create an automated S
 
 **Wazuh Configuration:**
 - Sysmon logs are routed to Wazuh for analysis.  
-  ![Sysmon Logs Configuration](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/wazuh%20agent%20sysmon%20logs%20to%20wazuh.png)
+  ![Sysmon Logs Configuration](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/sysmon%20filter%20wazuh.png)
 
 **Custom Rules:**
 - A custom rule was created in Wazuh to detect Mimikatz execution based on specific file names and patterns.  
