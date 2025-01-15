@@ -97,7 +97,7 @@ This project demonstrates how these tools work together to create an automated S
 
 **VirusTotal Lookup:**
 - The SHA256 hash of the detected file is checked against VirusTotal.  
-  ![VirusTotal Results]([placeholder-url-virustotal-results.png](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/virus%20total%20first%20result.png))
+  ![VirusTotal Results](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/virus%20total%20first%20result.png)
 
 **Email Notification:**
 - An email notification is sent via Shuffle when Mimikatz is detected.  
