@@ -14,7 +14,7 @@ This report details the setup and implementation of a Security Operations Center
 This project demonstrates how these tools work together to create an automated SOC workflow for threat detection and response.
 
 **SOC Automation Workflow Diagram:**
-![SOC Automation Diagram](placeholder-url-soc-automation-diagram.png)
+![SOC Automation Diagram](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/SOC%20Automation%20Diagram.png)
 
 ---
 
