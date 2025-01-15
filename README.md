@@ -32,7 +32,7 @@ This project demonstrates how these tools work together to create an automated S
 - **TheHive Login**:  
   ![TheHive Login Interface](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/hive%20login.png)
 - **Sysmon Log Generation**:  
-  ![Sysmon Log Generation](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/sysmon%20mimi%20log%20generation.png)
+  ![Sysmon Log Generation](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/sysmon%20filter%20wazuh.png)
 
 ---
 
