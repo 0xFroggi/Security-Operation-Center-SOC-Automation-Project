@@ -28,11 +28,11 @@ This project demonstrates how these tools work together to create an automated S
 
 **Login Screens:**
 - **Wazuh Login**:  
-  ![Wazuh Login Interface](placeholder-url-wazuh-login.png)
+  ![Wazuh Login Interface](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/wazuh%20login.png)
 - **TheHive Login**:  
-  ![TheHive Login Interface](placeholder-url-hive-login.png)
+  ![TheHive Login Interface](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/hive%20login.png)
 - **Sysmon Log Generation**:  
-  ![Sysmon Log Generation](placeholder-url-sysmon-mimi-log-generation.png)
+  ![Sysmon Log Generation](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/sysmon%20mimi%20log%20generation.png)
 
 ---
 
@@ -40,23 +40,23 @@ This project demonstrates how these tools work together to create an automated S
 
 **Wazuh Configuration:**
 - Sysmon logs are routed to Wazuh for analysis.  
-  ![Sysmon Logs Configuration](placeholder-url-wazuh-agent-sysmon-logs.png)
+  ![Sysmon Logs Configuration](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/wazuh%20agent%20sysmon%20logs%20to%20wazuh.png)
 
 **Custom Rules:**
 - A custom rule was created in Wazuh to detect Mimikatz execution based on specific file names and patterns.  
-  ![Custom Rule for Mimikatz Detection](placeholder-url-custom-rule.png)
+  ![Custom Rule for Mimikatz Detection](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/custom%20rule%20for%20mimi%20in%20wazuh.png)
 - **Rule Validation in Wazuh Dashboard**:  
-  ![Wazuh Dashboard Validation](placeholder-url-wazuh-dash-mimi-rule-works.png)
+  ![Wazuh Dashboard Validation](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/wazuh%20dash%20mimi%20rule%20works%202.png)
 
 **Shuffle Integration:**
 - Webhook integration between Wazuh and Shuffle was configured to automate responses to detected threats.  
-  ![Shuffle Integration](placeholder-url-wazuh-shuffle-integration.png)
+  ![Shuffle Integration](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/connecting%20wazuh%20to%20shuffle%20ossec%20file.png)
 
 **Regex Parsing for SHA256:**
 - A regex rule was configured in Shuffle to parse SHA256 hashes from Wazuh alerts.  
-  ![Regex Configuration](placeholder-url-regex-configuration.png)
+  ![Regex Configuration](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/hash%20regex%20config%20shuffle.png)
 - **Parsed Hash in Shuffle**:  
-  ![Hash Parsed](placeholder-url-hash-parsed.png)
+  ![Hash Parsed](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/hash%20parsed.png)
 
 ---
 
@@ -64,13 +64,12 @@ This project demonstrates how these tools work together to create an automated S
 
 **Workflow Example:**
 - A workflow in Shuffle sends email alerts whenever Wazuh detects Mimikatz.  
-  ![Workflow in Shuffle](placeholder-url-workflow.png)
+  ![Workflow in Shuffle](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/shuffle%20email%20dash.png)
 
 **Execution Argument Details:**
 - Details of the Shuffle workflow execution when an alert is triggered.  
-  ![Execution Argument Details](placeholder-url-execution-details.png)
 - **Alert Received**:  
-  ![Alert Received in Shuffle](placeholder-url-shuffle-alert-received-info.png)
+  ![Alert Received in Shuffle](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/shuffle%20alert%20received%20info.png)
 
 ---
 
@@ -79,21 +78,18 @@ This project demonstrates how these tools work together to create an automated S
 **Mimikatz Detection:**
 - **Wazuh Dashboard**:  
   Displays detections of Mimikatz activity.  
-  ![Wazuh Detection](placeholder-url-wazuh-detection.png)
+  ![Wazuh Detection](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/wazuh%20dash%20mimi.png)
 - **Sysmon Logs**:  
   Logs generated in Sysmon showing process execution details.  
-  ![Sysmon Logs](placeholder-url-sysmon-logs.png)
+  ![Sysmon Logs](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/sysmon%20mimi%20log%20generation.png)
 
 **Alert Management in TheHive:**
 - Alerts generated in Wazuh are sent to TheHive for incident response.  
   - **Alert in TheHive**:  
-    ![TheHive Alert](placeholder-url-hive-alert.png)
+    ![TheHive Alert](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/hive%20alert2.png)
   - **Alert JSON Structure**:  
-    ![Alert JSON](placeholder-url-alert-json.png)
+    ![Alert JSON](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/alert%20json%20hive.png)
 
-**Wazuh Archive Logs:**
-- Logs generated and stored for additional validation.  
-  ![Wazuh Archive Logs](placeholder-url-wazuh-server-mimi-archives.png)
 
 ---
 
@@ -101,13 +97,12 @@ This project demonstrates how these tools work together to create an automated S
 
 **VirusTotal Lookup:**
 - The SHA256 hash of the detected file is checked against VirusTotal.  
-  ![VirusTotal Results](placeholder-url-virustotal-results.png)
+  ![VirusTotal Results]([placeholder-url-virustotal-results.png](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/virus%20total%20first%20result.png))
 
 **Email Notification:**
 - An email notification is sent via Shuffle when Mimikatz is detected.  
-  ![Email Notification](placeholder-url-email-notification.png)
-- **Detailed Workflow for Email Alerts**:  
-  ![Workflow for Email Alerts](placeholder-url-shuffle-email-dash.png)
+  ![Email Notification](https://github.com/0xFroggi/Security-Operation-Center-SOC-Automation-Project/blob/main/images/email%20recieved.png)
+
 
 ---
 
